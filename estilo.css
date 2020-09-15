@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#nav {
+    float: right;
+    margin-right: 20%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+
+#capa {
+    background: url("img/WhatsApp\ Image\ 2020-09-10\ at\ 13.43.18.jpeg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    
+}
+#sub {
+    color: white;
+    text-align: center;
+}
+#botao {
+    color: white;
+    border: 5px white solid;
+    padding: 10px 20px ;
+    border-radius: 20px;
+}
+
+#botao:hover {
+    border: 5px solid black;
+    background: white;
+    color: black;
+}
+
+.icone {
+    width: 51px;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: #f7f7f7;
+}
+
+#importancia {
+    background: url(img/algas.jpg);
+    color: white;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color: black;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
+}
